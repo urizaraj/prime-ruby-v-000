@@ -18,5 +18,3 @@ def prime?(n)
   end
   true
 end
-    
-    
