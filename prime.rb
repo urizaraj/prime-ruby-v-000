@@ -5,6 +5,7 @@ def prime?(n)
     return true
   elsif n % 2 == 0
     return false
+  end
     
   i = 5
   w = 2
@@ -14,7 +15,8 @@ def prime?(n)
     
     i += w
     w = 6 - w
-    
+  end
+    true
   end
     
     
