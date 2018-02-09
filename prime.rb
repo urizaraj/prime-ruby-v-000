@@ -1,1 +1,20 @@
-# Add  code here!
+def prime?(n)
+  if n == 2
+    return true
+  elsif n == 3
+    return true
+  elsif n % 2 == 0
+    return false
+    
+  i = 5
+  w = 2
+  
+  while i * i <= n
+    return false if n % i == 0
+    
+    i += w
+    w = 6 - w
+    
+  end
+    
+    
